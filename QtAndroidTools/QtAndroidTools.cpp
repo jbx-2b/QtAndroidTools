@@ -60,6 +60,9 @@
 #ifdef QTAT_PLAY_STORE
 #include "QAndroidPlayStore.h"
 #endif
+#ifdef QTAT_SETTINGS
+#include "QAndroidSettings.h"
+#endif
 #ifdef QTAT_GOOGLE_ACCOUNT
 #include "QAndroidGoogleAccount.h"
 #endif
